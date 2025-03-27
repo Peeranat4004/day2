@@ -1,0 +1,128 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-image: url('https://t4.ftcdn.net/jpg/02/00/68/69/360_F_200686969_GJ7zbz2qaNIE4dyHSbZkQXvNPzRuwlr3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 50%; /* กำหนดให้กว้างครึ่งหนึ่งของจอ */
+    text-align: center;
+  }
+
+.h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blanchedalmond;
+}   
+
+.h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blanchedalmond;
+}
+
+.text {
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px 30px;
+}
+
+.logo {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-links a:hover {
+    color: red;
+}
+
+.content {
+    color: white;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 5%;
+}
+
+.photo {
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 8%;
+}
+
+.fb {
+    
+    margin-top: 10%;
+    margin-left: 0%;
+}
+
+.ig {
+    margin-top: -90%;
+    margin-left: 100%;
+}
+
+.mail {
+    margin-top: 20%;
+    margin-left: 40%;
+}
+
+.boxcon {
+    position: absolute;
+    margin-top: 65%;
+    margin-left: 3%;
+}
+
+.h4 {
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin-left: 90%;
+    margin-top: -60%;
+}
+
+.h5 {
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 5%;
+    margin-top: 50%;
+}
+
+.me {
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blanchedalmond;
+    margin-left: 5%;
+    margin-top: 45%;
+}
